@@ -27,12 +27,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .picture__collage{
     display: grid;
-    grid-template-columns: 0.1fr 0.1fr;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
     grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    grid-auto-flow: dense;
 }
 
 .contact__form {
